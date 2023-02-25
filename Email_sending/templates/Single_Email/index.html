@@ -3,6 +3,9 @@
     <form action="" method="POST">
         {% csrf_token %}
         <h1>This is Mail sender</h1>
+        Login<br>
+        <input type="email" name="Login_Email"><br>
+        <input type="password" name="Login_Password"><br>
         Subject<br>
         <input type="text" name="subject"><br>
         message<br>
@@ -10,5 +13,4 @@
         To_Email<br>
         <input type="email" name="email"><br>
         <button type="submit">Send</button><br>
-        <input type="file" name="file">
 {% endblock  %}

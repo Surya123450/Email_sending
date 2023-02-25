@@ -19,6 +19,7 @@ from Single_Email import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index),
-    path('', views.test),
+    #path('index/', views.index),
+    path('', views.index),
+    #path('test/', views.login.test),
 ]
